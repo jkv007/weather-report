@@ -1,0 +1,64 @@
+
+body{
+    background-color: white;
+}
+h1 {
+    text-align: center;
+    color: #070d52;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: inherit;
+    padding: 25px;
+}
+.city{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: larger;
+   
+    font-weight: 700;
+    
+   
+    padding-top: 25px;
+    color: #050938;
+
+    
+    
+}
+.weather{
+    text-align: center;
+}
+.temp{
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    margin: 30px auto;
+    background-color: gray;
+    border-radius: 16px;
+    padding: 15px 25px;
+    font-size: 102px;
+    font-weight: 900;
+    box-shadow: rgba(0,0,0, 0.2);
+    color:#fff;
+}
+.des{
+    font-size: 48px;
+    font-weight: 700;
+    color: #050938;
+    text-transform: uppercase;
+  
+
+}
+input[name="city"],input[name="country"]{
+    
+    
+    border-bottom: 2px solid whitesmoke;
+    border-color: #343a40;
+}
+
+
+
+input:focus{
+    background-color:transparent;
+    box-shadow: dimgray;
+
+}
